@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+# Import numpy
+
+import numpy as np
+
+# Import the data
+
+data = np.fromfile("data.bsq",dtype=unsignedint)

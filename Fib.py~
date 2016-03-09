@@ -1,0 +1,7 @@
+def fibseq(twotermsback, onetermback):
+    newterm = twotermsback + onetermback
+    return newterm
+
+initial = [1,1]
+
+print fibseq(initial[0], initial[1])
