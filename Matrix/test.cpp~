@@ -1,0 +1,11 @@
+// Simple test program
+
+#include "matrix.h"
+#include <iostream>
+
+int main()
+{
+	mymatrix M(4,4);
+	std::cout << M.get_vals() << std::endl;
+	return 0;
+}

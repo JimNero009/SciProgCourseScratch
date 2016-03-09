@@ -1,0 +1,11 @@
+// Test file with a matrix
+
+#include <iosteam>
+#include "matrix.h"
+
+int main()
+{
+	matrix M(4,4)
+	cout << M[1][1] << endl;
+	return 0;
+}

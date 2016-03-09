@@ -1,0 +1,26 @@
+// Header file for custom matrix class
+
+class matrix
+{
+	public:
+	void set_vals();
+	void get_vals();
+	void get_size();
+	~matrix();
+	private:
+	matrix();
+	int nrows, ncols;
+	float *data;
+};
+
+matrix::matrix(int rows, int cols)
+{
+	nrows = rows;
+	ncols = cols;
+	data = new float [nrows, ncols]
+};
+
+matrix::~matrix()
+{
+	delete [] data;
+}
